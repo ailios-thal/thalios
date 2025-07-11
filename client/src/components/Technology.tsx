@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FlaskRound, Music, Code, Settings } from 'lucide-react';
+import { FlaskRound, BarChart2, Code, Settings } from 'lucide-react';
 
 export default function Technology() {
   return (
@@ -59,14 +59,13 @@ export default function Technology() {
               <div className="flex items-start">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-r from-[#0d9488] to-[#0284c7] text-white">
-                    <Music className="h-6 w-6" />
+                    <BarChart2 className="h-6 w-6" />
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-medium text-white">Passive Acoustic Monitoring</h3>
+                  <h3 className="text-lg font-medium text-white">Fully Customizable</h3>
                   <p className="mt-2 text-gray-300">
-                    Our initial approach leverages spectrogram-based computer vision models, with potential for 
-                    other AI models such as Mel-frequency Cepstral Coefficients based or complex valued models for enhanced detection.
+                  Our general-purpose detectors can be tailored with software for annotating custom datasets and training specialized models for specific research and conservation needs.
                   </p>
                 </div>
               </div>

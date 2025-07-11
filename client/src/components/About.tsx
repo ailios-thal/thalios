@@ -1,22 +1,22 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ClipboardList, BarChart2, Lightbulb } from 'lucide-react';
+import { ClipboardList, Activity, Heart } from 'lucide-react';
 
 const features = [
   {
-    title: "Multi-Species Detection",
-    description: "Unlike traditional low-power whale detectors limited to specific calls, our technology identifies multiple whale species simultaneously with high accuracy using fully trainable, low-power deep learning models.",
+    title: "Power-Optimized Species Detection",
+    description: "Our technology identifies multiple whale species simultaneously, going beyond traditional detectors that focus on specific calls. The system uses trainable deep learning models while maintaining low power requirements.",
     icon: <ClipboardList className="h-6 w-6 text-white" />
   },
   {
-    title: "Fully Customizable",
-    description: "Our general-purpose detectors can be tailored with software for annotating custom datasets and training specialized models for specific research and conservation needs.",
-    icon: <BarChart2 className="h-6 w-6 text-white" />
+    title: "Familiar Spectrogram Analysis",
+    description: "Our solution works with the same spectrogram visualizations researchers already trust. Deploy advanced cetacean detection immediately while using the acoustic imagery and analysis methods your team has mastered.",
+    icon: <Activity className="h-6 w-6 text-white" />
   },
   {
-    title: "Energy-Efficient Solutions",
-    description: "Our revolutionary solution harnesses artificial intelligence and edge computing to enable power-efficient detectors that operate in energy-constrained deep-sea environments for extended periods.",
-    icon: <Lightbulb className="h-6 w-6 text-white" />
+    title: "Dedicated to Marine Conservation",
+    description: "With 25 cetacean sub-populations at risk in Canadian waters, we're dedicated to protecting these vulnerable species. Our detection technology provides critical data to address noise pollution and habitat disruption challenges facing marine mammals.",
+    icon: <Heart className="h-6 w-6 text-white" />
   }
 ];
 
@@ -30,7 +30,7 @@ export default function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
-        >
+        >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white">
             About <span className="text-3xl sm:text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#2dd4bf] to-[#38bdf8]">Thalios</span><span className="text-3xl sm:text-4xl font-extrabold text-white">.ai</span>
           </h2>
@@ -62,12 +62,6 @@ export default function About() {
                     alt="Whale swimming in ocean"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0f172a] opacity-60"></div>
-                  <div className="absolute bottom-0 p-4">
-                    <div className="backdrop-blur-md bg-white/5 p-2 rounded-lg inline-flex items-center border border-white/10">
-                      <div className="w-3 h-3 bg-green-400 rounded-full mr-2 animate-pulse"></div>
-                      <span className="text-sm font-medium">Cetacean detected</span>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

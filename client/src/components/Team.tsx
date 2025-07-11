@@ -5,7 +5,6 @@ import { Mail, Phone } from 'lucide-react';
 interface TeamMember {
   name: string;
   role: string;
-  phone: string;
   email: string;
   expertise: string;
   image: string;
@@ -15,8 +14,7 @@ export default function Team() {
   const teamMembers: TeamMember[] = [
     {
       name: 'Noah Barrett',
-      role: 'AI Researcher',
-      phone: '(902) 318-3605',
+      role: 'ML Engineer',
       email: 'noah.barrett@dal.ca',
       expertise: 'Artificial Intelligence Researcher; Machine Learning Engineer',
       image: 'https://randomuser.me/api/portraits/men/32.jpg'
@@ -24,8 +22,6 @@ export default function Team() {
     {
       name: 'Sam Silver',
       role: 'Software Engineer',
-      // phone: '(902) 318-8820',
-      phone: '',
       email: 'sam55silver@gmail.com',
       expertise: 'Software and Data Engineer; Marketing and Outreach; Finances',
       image: 'https://randomuser.me/api/portraits/men/41.jpg'
@@ -33,17 +29,13 @@ export default function Team() {
     {
       name: 'Jessica Doman',
       role: 'Conservation Specialist',
-      // phone: '(905) 407-2664',
-      phone: '',
       email: 'jess.doman10@gmail.com',
       expertise: 'Wildlife Conservation, Environmental Management, and Marine Conservation',
       image: 'https://randomuser.me/api/portraits/women/47.jpg'
     },
     {
       name: 'Harvey Wang',
-      role: 'Ocean Physicist',
-      // phone: '(902) 220-4468',
-      phone: '',
+      role: 'ML Researcher',
       email: 'harvey@dal.ca',
       expertise: 'Diversity measures; renewable energy; ocean physics; signal processing',
       image: 'https://randomuser.me/api/portraits/men/68.jpg'
@@ -86,10 +78,6 @@ export default function Team() {
                 <p className="text-sm text-[#2dd4bf] font-medium mt-1">{member.role}</p>
                 <p className="mt-3 text-gray-300 text-sm">{member.expertise}</p>
                 <div className="mt-5 space-y-2">
-                  <div className="flex items-center text-gray-300 text-sm">
-                    <Phone className="h-4 w-4 mr-2 text-[#2dd4bf]" />
-                    <span>{member.phone}</span>
-                  </div>
                   <div className="flex items-center text-gray-300 text-sm">
                     <Mail className="h-4 w-4 mr-2 text-[#2dd4bf]" />
                     <a href={`mailto:${member.email}`} className="hover:text-[#2dd4bf] transition-colors">

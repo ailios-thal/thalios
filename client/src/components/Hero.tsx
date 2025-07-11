@@ -27,9 +27,9 @@ export default function Hero() {
               transition={{ duration: 0.5 }}
             >
               <span className="block mt-1 text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
-                <span className="block text-white">Advanced Cetacean</span>
+                <span className="block text-white">Advanced Soundscape</span>
                 <span className="block bg-clip-text text-transparent bg-gradient-to-r from-[#5eead4] to-[#38bdf8]">
-                  Detection System
+                  Analysis System
                 </span>
               </span>
             </motion.h1>
@@ -39,8 +39,9 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="mt-6 text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl"
             >
-              Revolutionizing cetacean detection with model distillation and edge AI technology.
-              Our customizable solution identifies multiple whale species while meeting energy constraints of deep-sea hardware.
+              Thalios.ai's long-term vision is to serve the protection of cetaceans and marine protected areas through advanced ocean soundscape technology. 
+              Our primary focus is developing low-power edge devices that provide continuous, ISO 18405-compliant ambient noise monitoring for scientists, governmental bodies, and offshore industries. 
+              By integrating AI-powered acoustic classification algorithms on the same platform, we aim to offer comprehensive monitoring that captures both baseline soundscape metrics and real-time identification of cetacean vocalizations and ship signatures.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -62,7 +63,7 @@ export default function Hero() {
                   asChild
                   variant="outline"
                   size="lg"
-                  className="w-full sm:w-auto text-[#14b8a6] bg-white hover:bg-gray-50 px-8 py-3 md:py-4 md:text-lg md:px-10"
+                  className="w-full sm:w-auto text-[#14b8a6] bg-white px-8 py-3 md:py-4 md:text-lg md:px-10"
                 >
                   <a href="#about">Learn More</a>
                 </Button>

@@ -11,7 +11,7 @@
     "check": "tsc",
     "db:push": "drizzle-kit push",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist/public -b main -r https://github.com/ailios-thal/thalios.git"
+    "deploy": "start-ssh-agent && ssh-add C:/Users/NoahB/.ssh/thaliosai && gh-pages -d dist/public -b main -r git@github.com:ailios-thal/thalios.git"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",

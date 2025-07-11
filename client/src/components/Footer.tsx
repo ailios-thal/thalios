@@ -12,15 +12,15 @@ export default function Footer() {
               Advanced cetacean detection system using model distillation and edge AI technology for marine conservation.
             </p>
             <div className="flex space-x-4">
-              <a href="https://twitter.com/Thalios.aiAI" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <span className="sr-only">Twitter</span>
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="https://www.linkedin.com/company/Thalios.ai" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <span className="sr-only">LinkedIn</span>
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="https://github.com/Thalios.ai" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://github.com/NoahBarrett98/cetacean-detection/tree/master" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <span className="sr-only">GitHub</span>
                 <Github className="h-6 w-6" />
               </a>
